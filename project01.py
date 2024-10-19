@@ -75,7 +75,7 @@ else:
 
 student2 = {}
 
-student2["Name"] = input("Enter the first student name: ")
+student2["Name"] = input("Enter the 2nd student name: ")
 student2["maths"] = int(input("Enter the maths marks : "))
 student2["phy"] = int(input("Enter the phy marks: "))
 student2["bio"] = int(input("Enter the bio marks: "))
@@ -150,7 +150,7 @@ else:
 
 student3 = {}
 
-student3["Name"] = input("Enter the first student name: ")
+student3["Name"] = input("Enter the third student name: ")
 student3["maths"] = int(input("Enter the maths marks : "))
 student3["phy"] = int(input("Enter the phy marks: "))
 student3["bio"] = int(input("Enter the bio marks: "))
