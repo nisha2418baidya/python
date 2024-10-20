@@ -41,6 +41,7 @@ def lowest(maths , phy , bio):
 
 lowest(student1["maths"] , student1["phy"], student1["bio"])
 
+
 def remove_name():
     name = input("enter a name: ")
     if name == student1["name"]:
@@ -48,7 +49,7 @@ def remove_name():
 
     else:
      print("enter name is invaild")
-remove_name()
+remove_name()     
 
 def remove_maths():
     marks= int(input("Enter the maths marks you wamt to remove : "))
@@ -58,7 +59,7 @@ def remove_maths():
    
     else :
         print("the entered marks is invalid")
-remove_maths()
+remove_maths()        
 
 def remove_phy():
     marks= int(input("Enter the phy marks you wamt to remove : "))
@@ -77,6 +78,23 @@ def remove_bio():
     else :
         print("the entered marks is invalid")
 remove_bio()
+
+def main():
+    print("highest: ")
+    highest()
+    print("lowest: ")
+    lowest()
+    print("remove the name: ")
+    remove_name()
+    print("remove maths marks: ")
+    remove_maths()
+    print("remove phy marks: ")
+    remove_phy()
+    print("remove bio marks: ")
+    remove_bio()
+
+
+
 
 
 
@@ -110,6 +128,7 @@ def highest(maths , phy , bio):
 highest(student2["maths"] , student2["phy"], student2["bio"])
 
 
+
 def lowest(maths , phy , bio):
     if maths < phy and maths < bio:
         print("maths marks is lowest: ", maths)
@@ -122,6 +141,7 @@ def lowest(maths , phy , bio):
 
 lowest(student2["maths"] , student2["phy"], student2["bio"])
 
+
 def remove_name():
     name = input("enter a name: ")
     if name == student2["name"]:
@@ -129,7 +149,8 @@ def remove_name():
 
     else:
      print("enter name is invaild")
-remove_name()
+remove_name()     
+
 
 def remove_maths():
     marks= int(input("Enter the maths marks you wamt to remove : "))
@@ -148,6 +169,7 @@ def remove_phy():
         print(student2)
     else :
         print("the entered marks is invalid")
+
 remove_phy()
 
 def remove_bio():
@@ -157,7 +179,23 @@ def remove_bio():
         print(student2)
     else :
         print("the entered marks is invalid")
+
 remove_bio()
+
+def main():
+    print("highest marks: ")
+    highest()
+    print("lowest marks: ")
+    lowest()
+    print("remove the name: ")
+    remove_name()
+    print("remove maths marks: ")
+    remove_maths()
+    print("remove phy marks: ")
+    remove_phy()
+    print("remove bio marks: ")
+    remove_bio()
+
 
 
 
@@ -203,6 +241,7 @@ def lowest(maths , phy , bio):
 
 lowest(student3["maths"] , student3["phy"], student3["bio"])
 
+
 def remove_name():
     name = input("enter a name: ")
     if name == student3["name"]:
@@ -210,7 +249,8 @@ def remove_name():
 
     else:
      print("enter name is invaild")
-remove_name()
+remove_name()     
+
 
 def remove_maths():
     marks= int(input("Enter the maths marks you wamt to remove : "))
@@ -239,3 +279,19 @@ def remove_bio():
     else :
         print("the entered marks is invalid")
 remove_bio()
+
+
+def main():
+    print("highest marks: ")
+    highest()
+    print("lowest marks: ")
+    lowest()
+    print("remove the name: ")
+    remove_name()
+    print("remove maths marks: ")
+    remove_maths()
+    print("remove phy marks: ")
+    remove_phy()
+    print("remove bio marks: ")
+    remove_bio()
+
